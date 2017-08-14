@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+
+  <route pass="url1">
+    <url>/sys/class/thermal/thermal_zone0/temp</url>
+    <file>x.json</file>
+  </route>
+  <route  pass="url2">
+    <url>url2</url>
+    <file>y.json</file>
+  </route>
+
+  <ipconfig>
+    <ip>127.0.0.1</ip>
+    <ip>192.168.1.2</ip>
+    <ip>::1</ip>
+  </ipconfig>
+
+  <hist>
+    10
+  </hist>
+  <timer>
+    1
+  </timer>
+
+
+  <acl>
+    <root>
+      <user>
+        <username>bendriquez</username>
+        <pwd>wompanoegg</pwd>
+      </user>
+    </root>
+
+    <user>
+      <username>michriguez</username>
+      <pwd>abenakki</pwd>
+    </user>
+
+  </acl>
+
+</data>
